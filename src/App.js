@@ -1,12 +1,12 @@
 import './App.css';
+import Calculator from './Components/Calculator';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <h1>Hi</h1>
-      <h2>Hi</h2>
-      <h1>Hello</h1>
+      <h1>Calculator</h1>
+      <Calculator/>
     </div>
   );
 }
